@@ -256,10 +256,10 @@ public class MainGame extends JFrame implements ActionListener, KeyListener {
                         g.fillOval(j*CELL+5, i*CELL+200+5, CELL-10, CELL-10);
 
                         // choose color based on segment type
-                        if(board[j][i] == START) g.setColor(Color.orange);
-                        if(board[j][i] == SEG) g.setColor(Color.blue);
-                        if(board[j][i] == END) g.setColor(Color.black);
+                        if(board[j][i] == START) g.setColor(Color.BLACK);
                         if(board[j][i] == APPLE) g.setColor(Color.RED);
+                        if(board[j][i] == SEG || board[j][i] == END) g.setColor(Color.blue);
+
 
                         // draw segment with color
                         g.fillOval(j*CELL+15, i*CELL+200+15, CELL-30, CELL-30);
