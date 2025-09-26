@@ -1,3 +1,5 @@
+package SnakeGame;
+
 class Segment {
     int x,y;
     
