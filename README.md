@@ -8,7 +8,7 @@ a wall or yourself, game over ❌
 ## 🎮 Play the Game
 
 ### Windows Only
-1. Download the latest release: [RushHourGame.zip](https://github.com/yourusername/snakegame/SnakeGame)
+1. Download the latest release: [SnakeGame.zip](https://github.com/yourusername/snakegame/SnakeGame)
 2. Extract (unzip) the folder.
 3. Open the folder and double-click **SnakeGame.exe** to start playing.
 ---
